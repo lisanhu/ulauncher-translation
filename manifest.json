@@ -19,8 +19,8 @@
             "id": "id_langs",
             "type": "input",
             "name": "Supported Languages",
-            "description": "The input text will be translated into this list of languages. The languages are separated by comma.",
-            "default_value": "Chinese"
+            "description": "The input text will be translated into this list of languages. The languages are separated by comma. Please use language ISO-639 codes instead of full language names",
+            "default_value": "zh, en"
         },
         {
             "id": "api_key",
