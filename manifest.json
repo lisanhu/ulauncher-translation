@@ -1,0 +1,32 @@
+{
+    "required_api_version": "2",
+    "name": "AI Translation",
+    "description": "A translation extension built with AI",
+    "developer_name": "Sanhu Li",
+    "icon": "images/icon.png",
+    "options": {
+      "query_debounce": 1
+    },
+    "preferences": [
+        {
+            "id": "id_kw",
+            "type": "keyword",
+            "name": "Translation",
+            "description": "Translation extension",
+            "default_value": "tr"
+        },
+        {
+            "id": "id_langs",
+            "type": "input",
+            "name": "Supported Languages",
+            "description": "The input text will be translated into this list of languages. The languages are separated by comma.",
+            "default_value": "Chinese"
+        },
+        {
+            "id": "api_key",
+            "type": "input",
+            "name": "Google Cloud Translation API Key",
+            "description": "The API key for Google Cloud Translation API. You will have to use your own API key since this extension will be made public on github"
+        }
+    ]
+  }
